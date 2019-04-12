@@ -58,7 +58,7 @@ var GDYoutube = function() {
         button.style.setProperty("width", '100%', "important");
         button.style.setProperty("height", '100%', "important");
         button.style.setProperty("padding", '10px', "important");
-        button.style.setProperty("background-color", COLOR_GAB_GREEN, "important");
+        button.style.setProperty("background-color", COLOR_DISSENTER_BLUE, "important");
         button.style.setProperty("color", '#fff', "important");
         button.style.setProperty("border-radius", '2px', "important");
         button.style.setProperty("text-align", 'center', "important");

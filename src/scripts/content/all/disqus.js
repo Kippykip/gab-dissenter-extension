@@ -51,7 +51,7 @@ var GDDisqus = function() {
         button.style.setProperty("display", 'block', "important");
         button.style.setProperty("width", '100%', "important");
         button.style.setProperty("height", '40px', "important");
-        button.style.setProperty("background-color", COLOR_GAB_GREEN, "important");
+        button.style.setProperty("background-color", COLOR_DISSENTER_BLUE, "important");
         button.style.setProperty("color", '#fff', "important");
         button.style.setProperty("border-radius", '4px', "important");
         button.style.setProperty("text-align", 'center', "important");

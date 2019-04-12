@@ -16,7 +16,7 @@ var BACKGROUND_ACTION_SET_BADGE = 'set_badge';
 var BACKGROUND_ACTION_TAB_UPDATED = 'tab_updated';
 
 /* COLORS */
-var COLOR_GAB_GREEN = '#21cf7b';
+var COLOR_DISSENTER_BLUE = '#4040FF';
 
 /* STORAGE */
 var STORAGE_BASE = 'gab_dissenter_extension_data';

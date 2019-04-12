@@ -1,9 +1,9 @@
 module.exports = manifest = {
     "manifest_version": 2,
-    "name": "Dissenter Extension",
-    "short_name": "Dissenter",
-    "description": "Dissenter is the comment section of the Internet.",
-    "homepage_url": "https://dissenter.com",
+    "name": "Dissenter Blue Extension",
+    "short_name": "Dissenter Blue",
+    "description": "Dissenter Blue, the alternative comment section of the Internet.",
+    "homepage_url": "https://github.com/Kippykip/gab-dissenter-extension",
     "icons": {
         "16": "assets/images/logo/icon-16.png",
         "48": "assets/images/logo/icon-48.png",

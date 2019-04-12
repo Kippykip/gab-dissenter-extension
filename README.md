@@ -1,28 +1,14 @@
-# Dissenter Browser Extension
+# Dissenter Blue Browser Extension
 
-This repository holds the Dissenter Browser Extension code that is used to generate the final distribution code per each browser.
+This repository holds the Dissenter Blue Browser Extension code that is used to generate the final distribution code per each browser.
+Dissenter Blue is based from Dissenter by Gab
+https://dissenter.com
 
-For more information, please visit: https://dissenter.com
+# • About
 
-# • Installation
-
-Latest versions:
-
-| Browser | Version |
-| --- | --- |
-Chrome | v0.1.5 |
-Edge | v0.1.5 |
-Firefox | v0.1.5 |
-Safari | v0.1.4 |
-
-This extension only requires developer dependencies.
-
-Clone or download the repository and then:
-`$ npm install`
-
-# • Overview
-
-This is meant to help anyone understand this repository, where everything lives and what everything does.
+Dissenter Blue is a universal comment section for the entire internet!
+It is both a web application and an open source browser extension. Dissenter Blue organizes conversations around individual URL's and creates a public square on them where anyone can leave a comment.
+Blue adds better URL functionality for Facebook.com, along with other colorful changes.
 
 ## • Details
 

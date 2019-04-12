@@ -25,6 +25,12 @@ var Popup = function() {
 
         //Get url
         var url = activeTab['url'] || '';
+		//Quick and dirty edits for better facebook support
+		if(url.substring(0, 24).toLowerCase() == 'https://www.facebook.com')
+		{
+			url = url.split('?type=3')[0]; //Junk characters after ?type=3
+			url = url.split('&set=')[0]; //Junk characters after &set=
+		}
 
         //If same as currently active, don't reload
         if (currentActiveUrl === url) return false;
@@ -107,5 +113,6 @@ else {
         //Create and init Popup
         var popup = new Popup();
         popup.init(url);
+		
     });
 }
