@@ -26,10 +26,17 @@ var Popup = function() {
         //Get url
         var url = activeTab['url'] || '';
 		//Quick and dirty edits for better facebook support
-		if(url.substring(0, 24).toLowerCase() == 'https://www.facebook.com')
+		if(url.substring(0, 24).toLowerCase() == 'https://www.facebook.com' || url.substring(0, 22).toLowerCase() == 'https://m.facebook.com')
 		{
-			url = url.split('?type=3')[0]; //Junk characters after ?type=3
-			url = url.split('&set=')[0]; //Junk characters after &set=
+			url = url.split('?type=3')[0]; //Junk characters after ?type=3, usually appears when clicking the posts timestamp or theater mode.
+			url = url.split('&set=')[0]; //Junk characters after &set=, usually appears when clicking on posts that are from groups.
+			url = url.split('&comment_id=')[0]; //Junk characters after &comment_id, usually appears when clicking from notifications.
+			url = url.split('&notif_id=')[0]; //Junk characters after &notif_id, notifications tend to add this junk next to all URLs.
+			url = url.split('&eid=')[0]; //Junk characters after &eid, usually appears when you click on page names.
+			url = url.split('&notif_t=')[0]; //Junk characters after &notif_t, mostly used on m.facebook.com.
+			url = url.split('&refid=')[0]; //Junk characters after &refid, mostly used on m.facebook.com.
+			url = url.split('&fs=1')[0]; //Junk characters after &fs, mostly used on m.facebook.com.
+			url = url.split('&focus_composer=')[0]; //Junk characters after &focus_composer, mostly used on m.facebook.com.
 		}
 
         //If same as currently active, don't reload
