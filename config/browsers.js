@@ -28,12 +28,7 @@ const firefox = new Browser({
         MESSENGER: 'runtime',
     },
     manifestMap: {
-        "version": "0.1.6",
-        "sidebar_action": {
-            "default_title": "Dissenter",
-            "default_panel": "sidebar/sidebar.html",
-            "default_icon": "assets/images/logo/icon-128.png"
-        },
+        "version": "0.1.7",
         "options_ui": {
             "page": "options/options.html",
             "browser_style": true,
